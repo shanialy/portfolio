@@ -74,7 +74,7 @@ export default function Home() {
       </Head>
       <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
         {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
-        {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
+        {context.sharedState.finishedLoading ? <></> : ShowElement ? <></> : <></>}
         <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
         <MyName finishedLoading={context.sharedState.finishedLoading} />
         <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
@@ -83,7 +83,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl="" hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}

@@ -1,6 +1,6 @@
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import { Link } from "react-scroll";
-const MobileMenu = props => {
+const MobileMenu = (props) => {
   const closeMenu = () => {
     props.setRotate(!props.rotate);
     props.setShowElement(!props.ShowElement);
@@ -78,6 +78,14 @@ const MobileMenu = props => {
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
             >
               Resume
+            </button>
+          </a>
+          <a href={"/userdatapull"} target={"_blank"} rel="noreferrer">
+            <button
+              className="rounded border font-Text2  border-AAsecondary
+           hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
+            >
+              View Your Info
             </button>
           </a>
         </div>
