@@ -75,40 +75,34 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I'm a passionate and skilled software engineer with expertise in 
-        <span className="text-AAsecondary"> Node.js</span>, 
+        {"I'm a passionate and skilled software engineer with expertise in"}
+        <span className="text-AAsecondary"> Node.js</span>,
         <span className="text-AAsecondary"> Next.js</span>,
         <span className="text-AAsecondary"> AWS services</span>,
-        <span className="text-AAsecondary"> Serverless computing</span>.
-        My journey in
-        the world of technology has been driven by a deep curiosity and a
-        relentless pursuit of excellence. <span className="text-AAsecondary"> Node.js</span>: As a Node.js developer, I've
-        had the opportunity to work on a wide range of projects, from creating
-        high-performance server applications to building real-time web
-        applications. I leverage Node.js to deliver efficient and scalable
-        solutions that meet the demands of modern web development. <span className="text-AAsecondary"> Next.js</span>: My
-        proficiency in Next.js allows me to craft robust and interactive web
-        applications with ease. With Next.js, I can build server-rendered React
-        applications that offer lightning-fast page loads, SEO-friendly
-        features, and an exceptional user experience. <span className="text-AAsecondary"> AWS services</span>: I have
+        <span className="text-AAsecondary"> Serverless computing</span>. My
+        journey in the world of technology has been driven by a deep curiosity
+        and a relentless pursuit of excellence.{" "}
+        <span className="text-AAsecondary"> Node.js</span>: As a Node.js
+        developer, {"I've"} had the opportunity to work on a wide range of
+        projects, from creating high-performance server applications to building
+        real-time web applications. I leverage Node.js to deliver efficient and
+        scalable solutions that meet the demands of modern web development.{" "}
+        <span className="text-AAsecondary"> Next.js</span>: My proficiency in
+        Next.js allows me to craft robust and interactive web applications with
+        ease. With Next.js, I can build server-rendered React applications that
+        offer lightning-fast page loads, SEO-friendly features, and an
+        exceptional user experience.{" "}
+        <span className="text-AAsecondary"> AWS services</span>: I have
         extensive experience working with Amazon Web Services (AWS), the leading
         cloud computing platform. From EC2 instances to Lambda functions, from
-        S3 storage to DynamoDB databases, I've harnessed the power of AWS
-        services to create reliable and highly available cloud solutions.
-        <span className="text-AAsecondary"> Serverless computing</span>
-: Serverless computing is a paradigm that I've fully
-        embraced. By designing serverless architectures, I've helped
-        organizations reduce operational overhead, enhance scalability, and
-        optimize costs. My serverless expertise covers AWS Lambda, API Gateway,
-        and other serverless components. My commitment to delivering top-notch
-        solutions is unwavering. I thrive in collaborative environments, working
-        closely with cross-functional teams to turn ideas into reality. Whether
-        it's building microservices, optimizing database performance, or
-        architecting serverless applications, I'm always up for the challenge.
-        I'm excited to leverage my skills to drive innovation and help
-        organizations achieve their technological goals. Let's connect and
-        explore how I can contribute to your next project or initiative.
-
+        S3 storage to DynamoDB databases,{" "}
+        {
+          "I've harnessed the power of AWS services to create reliable and highly available cloud solutions."
+        }
+        <span className="text-AAsecondary"> Serverless computing</span>:
+        {
+          "Serverless computing is a paradigm that I've fully embraced. By designing serverless architectures, I've helped organizations reduce operational overhead, enhance scalability, and optimize costs. My serverless expertise covers AWS Lambda, API Gateway, and other serverless components. My commitment to delivering top-notch solutions is unwavering. I thrive in collaborative environments, working closely with cross-functional teams to turn ideas into reality. Whether it's building microservices, optimizing database performance, or architecting serverless applications, I'm always up for the challenge. I'm excited to leverage my skills to drive innovation and help organizations achieve their technological goals. Let's connect and explore how I can contribute to your next project or initiative."
+        }
         {/* digital experiences. My current area of focus is in the <span className="text-AAsecondary">web3 domain</span>,
         where I actively engage in developing <br className="2xl:block hidden"/>
         and designing immersive <span className="text-AAsecondary">web3 applications</span>. This involves working with{" "}
