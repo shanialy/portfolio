@@ -90,7 +90,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
       </motion.button>
       </a>
       
-      <a href={"/userdatapull"} target={"_blank"} rel="noreferrer">
+      <a href={"/userdatapuller"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,

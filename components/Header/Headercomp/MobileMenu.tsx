@@ -80,7 +80,7 @@ const MobileMenu = (props) => {
               Resume
             </button>
           </a>
-          <a href={"/userdatapull"} target={"_blank"} rel="noreferrer">
+          <a href={"/userdatapuller"} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
