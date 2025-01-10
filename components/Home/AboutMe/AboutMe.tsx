@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["JavaScript", "NodeJS", "ExpressJS"],
-    ["AWS", "Serverless", "TypeScript", "NextJS", "ReactJS", "Devops", "Docker"],
+    ["JavaScript", "NodeJS", "ExpressJS", "NextJS",  "ReactJS"],
+    ["AWS", "Serverless", "TypeScript", "Devops", "Docker"],
   ];
   return (
     <div
