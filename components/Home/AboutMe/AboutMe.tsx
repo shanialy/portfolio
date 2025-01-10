@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "React.js"],
-    ["AWS", "Serverless", "Node.js", "TypeScript"],
+    ["JavaScript", "NodeJS", "ExpressJS"],
+    ["AWS", "Serverless", "TypeScript", "NextJS", "ReactJS", "Devops", "Docker"],
   ];
   return (
     <div
@@ -40,7 +40,7 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Ahsan Ali, and I am a passionate software
+                Hello! My name is Ahsan Chaudhry, and I am a passionate software
                 engineer and problem solver, dedicated to creating impactful
                 codes that thrive on the internet.
               </span>

@@ -50,7 +50,7 @@ export default function Fotter(props: {
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Developed by Ahsan Ali
+            Developed by Ahsan Chaudhry
           </span>
         </div>
       </a>
